@@ -1,0 +1,256 @@
+body{
+	font-family: Encode Sans Normal, sans-serif;
+	font-size: 15px
+	line-height:1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+/*global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{
+	height: 37px;
+	background: #e8491d;
+	border: 0;
+	margin: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff
+}
+
+.dark{
+	padding: 15px;
+	background: #4b2e83;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.line-break{
+	background: #e8491d;
+}
+
+/*Header */
+header{
+	background: #4b2e83;
+	color:#ffffff;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: rgb(145,123,76) 10px solid;
+	font-family: Encode Sans Normal, sans-serif;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 7px 20px 0 20px;
+	font-size: 16px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+	display: inline;
+}
+
+header nav{
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header .highlight, header .current a{
+	color:#b7a57a;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:#cccccc;
+}
+
+header #branding img{
+	float: left;
+	padding-top: 0;
+	height:100px;
+	position: relative;
+	top: -14px;
+}
+
+header #facebook-logo img{
+	width: 10px;
+}
+
+/* showcase */
+#showcase{
+	min-height: 500px;
+	background: url('../images/background.png') 0 -150px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#ffffff;
+	text-align: center;	
+	color: #ffffff;
+	border-bottom: rgb(145,123,76) 10px solid;
+}
+
+#showcase img{
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+#showcase h1{
+	margin-top: 0px;
+	font-size: 80px;
+	margin-bottom: 5px;
+	color: #444444;
+}
+
+#showcase p{
+	font-size: 20px;
+	margin-top: -10px;
+	color: #444444;
+}
+
+/* mission-statement */
+#mission-statement{
+	padding: 0px;
+	color: #ffffff;
+	background: #4b2e83;
+	text-align: center;
+	min-height: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#mission-statement h1{
+	float: left;
+}
+
+/* newsletter */
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	text-align: center;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px; 
+}
+
+/*boxes */
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width: 100px;
+}
+
+/* photo-gallery */
+
+#photo-gallery h1{
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+<!-- do not understand -->
+
+.page-title .highlight h1{
+	color: #4b2e83;
+}
+
+/* about */
+.bold-p{
+	color: rgb(145,123,76);
+	font-size: 30px;
+}
+
+.introduce img{
+	float: left;
+	width: 40%;
+	padding-right: 20px;
+	padding: 20px 20px 20px 0px;
+}
+
+.introduce h2{
+	text-align: right;
+	font-size: 80px;
+	margin: 0px;
+	padding: 20px 0px 20px 20px;
+}
+
+.introduce p{
+	text-align: right;
+	font-size: 30px;
+	margin: 0px;
+	padding: 20px 0px 20px 20px;
+	display: block;
+}
+
+section .introduce{
+	margin: 20px 20px 20px 0px;
+}
+
+
+
+
+/* uwb logo bottom */
+#uwb-logo img{
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+/* Footer */
+footer{
+	padding:20px;
+	margin-top: 20px;
+	color: #000000;
+	background-color: rgb(145,123,76);
+	text-align: center;
+}
+
+footer p{
+	font-weight: bold;
+}
+
+footer img{
+	height: 60px;
+}
