@@ -1,0 +1,23 @@
+<div class="row subscribe">
+        <div class="col">
+            <h2>Subscribe to our newsletter</h2>
+        </div>
+        <div class="col-5">
+            <form class="form-inline" #newsletter="ngForm" (ngSubmit)="subscribe(newsletter)">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Enter Email" name="email" ngModel>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+        </div>
+</div>
+<footer>
+    <div class="row copyright">
+        <div class="container">
+            <a href="https://www.uwb.edu/">
+                <img src="../../assets/images/web-uwbothell-centered.png">
+            </a>
+            <p>International Club, Copyright&copy; 2018</p>
+        </div>
+    </div>
+</footer>

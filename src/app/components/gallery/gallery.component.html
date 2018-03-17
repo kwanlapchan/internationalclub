@@ -1,0 +1,15 @@
+<section>
+    <div class="container">
+        <div class="page-title">
+            <h1>Gallery</h1>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <carousel>
+        <slide *ngFor="let picture of pictures">
+            <img [src]="picture" style="display: block; width: 100%;">
+        </slide>
+    </carousel>
+</div>
+<br>
